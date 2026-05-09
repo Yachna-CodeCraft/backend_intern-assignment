@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e3a8a,
+    #2563eb
+  );
+
+  min-height: 100vh;
+}
+
+
+.container {
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 20px;
+}
+
+
+.card {
+
+  width: 700px;
+
+  background: white;
+
+  border-radius: 24px;
+
+  padding: 40px;
+
+  box-shadow:
+    0 20px 60px rgba(
+      0,
+      0,
+      0,
+      0.25
+    );
+}
+
+
+h1 {
+
+  text-align: center;
+
+  color: #1e3a8a;
+
+  font-size: 42px;
+
+  margin-bottom: 10px;
+}
+
+
+.subtitle {
+
+  text-align: center;
+
+  color: #64748b;
+
+  margin-bottom: 35px;
+}
+
+
+.section {
+
+  margin-bottom: 30px;
+}
+
+
+.section h3 {
+
+  color: #334155;
+
+  margin-bottom: 15px;
+
+  text-align: center;
+}
+
+
+input {
+
+  width: 100%;
+
+  padding: 14px;
+
+  margin-bottom: 15px;
+
+  border-radius: 12px;
+
+  border: 2px solid #dbeafe;
+
+  font-size: 15px;
+
+  transition: 0.3s;
+}
+
+
+input:focus {
+
+  outline: none;
+
+  border-color: #2563eb;
+}
+
+
+button {
+
+  border: none;
+
+  border-radius: 12px;
+
+  padding: 14px 20px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+  color: white;
+
+  background: linear-gradient(
+    to right,
+    #2563eb,
+    #1d4ed8
+  );
+
+  transition: 0.3s;
+}
+
+
+button:hover {
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 20px rgba(
+      37,
+      99,
+      235,
+      0.3
+    );
+}
+
+
+.buttonRow {
+
+  display: flex;
+
+  gap: 12px;
+
+  justify-content: center;
+}
+
+
+.message {
+
+  text-align: center;
+
+  margin-top: 20px;
+
+  font-weight: bold;
+
+  color: #16a34a;
+}
+
+
+.taskList {
+
+  margin-top: 30px;
+}
+
+
+.taskCard {
+
+  background: #eff6ff;
+
+  border-left: 6px solid #2563eb;
+
+  border-radius: 12px;
+
+  padding: 18px;
+
+  margin-bottom: 15px;
+}
+
+
+.taskCard h4 {
+
+  color: #1e3a8a;
+
+  margin-bottom: 8px;
+}
+
+
+.taskCard p {
+
+  color: #475569;
+}
